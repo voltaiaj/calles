@@ -10,7 +10,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    color: white;
+    color: black;
 }
 
 body {
@@ -157,7 +157,7 @@ hr.small {
     height: 100px;
     padding: 2.5% 0;
     text-align: center;
-    background: url(../img/bg-black.jpg) no-repeat center center scroll;
+    background: url(../img/bg-white.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -285,9 +285,9 @@ footer {
 }
 
 .bk-bg {
-    color: rgb(255,255, 255)
+    color: rgb(0,0, 0)
     width: 100%;
-    background: url(../img/blue-asphalt-section.jpg) no-repeat center center scroll;
+    background: url(../img/bg-white.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -295,10 +295,10 @@ footer {
 }
 
 .icon-color {
-    color: rgb(0,0,0)
+    color: rgb(255,255,255)
 }
 
 .about, .portfolio, .footer {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
